@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "fakenews-5-0"
+version = "0.1.0"
+description = ""
+authors = ["kike herrera"]
+readme = "README.md"
+packages = [{include = "fakenews_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.3.1"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
