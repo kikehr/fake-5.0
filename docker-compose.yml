@@ -1,0 +1,6 @@
+services:
+   cow:
+      image: ghcr.io/mlflow/mlflow  
+      ports:
+      - 5000:5000
+      command: mlflow server 
