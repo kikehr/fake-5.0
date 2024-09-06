@@ -1,5 +1,5 @@
 services:
-   cow:
+   mlflow:
       image: ghcr.io/mlflow/mlflow  
       ports:
       - 5000:5000
